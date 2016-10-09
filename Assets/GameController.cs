@@ -13,16 +13,16 @@ public class GameController : MonoBehaviour {
 
 	public List<GameObject> enemyList = new List<GameObject>();
 
-	public double runTime = 0;
+	public double runTime;
 	//total run time of the game, in seconds
 
-	public double spawnRate = 1;
+	public double spawnRate;
 	//time between each enemy spawn, in seconds
 
-	public double nextSpawn = 0;
+	public double nextSpawn;
 	//time position of next enemy spawn, in seconds
 
-	public double portalTime = 40;
+	public double portalTime;
 	//time at which the portal opens and the wizard is able to escape, in seconds
 
 	// Use this for initialization
@@ -33,29 +33,33 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log (runTime+" "+nextSpawn+" "+spawnRate);
 		runTime += Time.deltaTime;
-		if (runTime >= nextSpawn) {
+		//increase the run time by deltaTime, the change in time recorded by the program between this frame and the last frame
+		if (runTime >= nextSpawn) { //if the run time has reached the time position for the next spawn
 			spawnEnemy ();
-			//Debug.Log (runTime);
+			//spawn an enemy
 			nextSpawn += spawnRate;
+			//increase the time position for the next spawn by the spawn rate
 		}
 		if(runTime >= portalTime){
 			//insert win code here
 		}
 	}
+
+	//spawnEnemy spawns one enemy onto the 
 	void spawnEnemy(int enemyType = 0){
 		/*PARAMETERS:
 			enemyType	= type of enemy spawned
 		*/
 		GameObject tempEnemy = Instantiate (enemyPrefab, new Vector3 (-10f, 1f, 0f), Quaternion.identity) as GameObject;
-		//spawns an instance of an enemy
+		//spawns an instance of an enemy, at position x = -10, y = 1, z = 0 without rotation
 
-		//SETTING VARIABLES OF THE ENEMY
+		//SETTING INITIAL VALUES OF VARIABLES FOR THAT ENEMY INSTANCE
 		tempEnemy.GetComponent<Enemy> ().moveSpeed = 10;
 		tempEnemy.GetComponent<Enemy> ().state = 1;
 
 		enemyList.Add(tempEnemy);
+		//add the enemy instance to the list of enemies
 	}
 
 }
