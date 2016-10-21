@@ -46,7 +46,7 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 
-	//die destroys this enemy instance completely and erases all traces of its existence
+	//die removes this enemy instance completely and erases all traces of its existence
 	void die(){
 		GameController gameController = GameObject.Find("Game Controller").GetComponent<GameController>();
 		gameController.enemyList.Remove (this.gameObject);

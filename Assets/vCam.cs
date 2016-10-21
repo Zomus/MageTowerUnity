@@ -20,7 +20,7 @@ public class vCam : MonoBehaviour {
 	void followObject (GameObject obj, int followFactor = 1){
 		/*PARAMETERS:
 			obj 			= object that this vCam will follow
-			followFactor	= how tightly the camera will follow the object (this number must be 1 or above; 1 follows tight, infinity follows infinitely loosely)
+			followFactor	= how tightly the camera will follow the object (this number must be 1 or larger; 1 follows tight, infinity follows infinitely loosely)
 		*/
 
 		Vector2 objPos = new Vector2 (0, 0);
