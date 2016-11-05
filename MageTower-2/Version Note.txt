@@ -1,0 +1,41 @@
+Project Mage Tower GDC
+
+Unity Barebone 1.2 - Enemy Logics
+-------------------------------------
+-EnemyController.cs is deprecated.
+-EnemyFunction.cs is added.
+-Path finding logic has been changed.
+-------------------------------------
+
+Unity Barebone 1.1 - Bugfixes
+-------------------------------------
+-Same progression as 1.0
+-Inconsistent Gravity kill has been fixed.
+-Floating Enemy has been fixed.
+
+To Do--------------------------------
+-No change from version 1.0
+
+-------------------------------------
+
+Unity Barebone 1.0 : Completed the general frame work.
+-------------------------------------
+-Spawns Enemy
+-Make enemy progress toward tower
+-Make enemy climb the tower
+-Enemy can be dragged and dropped from height to kill.
+-Killed enemy gives money.
+-Functional Timer and Wave controller.
+
+Glitch-------------------------------
+-Gravity kill is extremely inconsistent.
+-Enemy randomly floats when thrown.
+
+To Do--------------------------------
+-Wizard Health is currently non-functional.
+-Trap is not coded.
+-Stage system is not coded, only stage 1 is accessible.
+-Win Function is incomplete
+-UI is not complete.
+-Menu is not complete. (Standby for designer.)
+-------------------------------------
