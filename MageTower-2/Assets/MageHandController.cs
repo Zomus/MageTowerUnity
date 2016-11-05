@@ -3,9 +3,6 @@ using System.Collections;
 
 public class MageHandController : MonoBehaviour {
 
-	private Vector3 screenPoint();
-	private Vector3 offset();
-
 	// Use this for initialization
 	void Start () {
 		
@@ -13,25 +10,19 @@ public class MageHandController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
-	// Targets point when mouse left click is held.
-	void OnMouseDown()
-	{
-		screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-		offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
-	}
-
-	// Used to drag the object.
-	void OnMouseDrag()
-	{
 		//Debug.Log("hi");
-		Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+
+		Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 3);
 		//point of the mouse using screen coordinates
+
+		Vector3 offset = new Vector3(2f, -4.5f, 4.5f);
+		//offset between the coordinate offset of the (0, 0, 0) of the hand and its true center
 
 		Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint);
 		//point of the mouse in game coordinates
 
-		transform.position = curPosition;
+		gameObject.transform.position = curPosition + offset;
+		//change the gameObject's position to follow the mouse
 	}
+	// Targets point when mouse left click is held.
 }
