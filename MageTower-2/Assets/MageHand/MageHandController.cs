@@ -28,8 +28,6 @@ public class MageHandController : MonoBehaviour {
 		gameObject.transform.position = curPosition + offset;
 		//change the gameObject's position to follow the mouse
 
-		Debug.Log(cooldown);
-
 		if(Input.GetKeyDown(KeyCode.Space)){
 			anim.SetTrigger(grabHash);
 			cooldown = 1;

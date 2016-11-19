@@ -4,8 +4,10 @@ using System.Collections.Generic;
 
 public class Main : MonoBehaviour {
 
-    public static int wizardHp = 10;
+    
     public static int wizardHpMax = 10;
+	public static int wizardHp = wizardHpMax;
+
     public static int finance = 0;
     public static int timer = 0;
     public static int stage = 1;
@@ -45,6 +47,10 @@ public class Main : MonoBehaviour {
         {
             winFunction();
         }
+
+		if(wizardHp <= 0){
+			GameObject.Find("Tower").transform.Rotate(new Vector3(45, 0, 0)*Time.deltaTime);
+		}
 	}
 
     // This function creates enemy, switching between leftside and rightside.

@@ -20,6 +20,11 @@ public class enemyFunction : MonoBehaviour {
     bool attack = false;
 	//whether this enemy is currently attacking the wizard
 
+	float attackCD = 2;
+	//attack cooldown (2 seconds before it attacks you again
+	float currentCD = 0;
+	//actual counter that counts down
+
     Ray ray;
     RaycastHit hit;
 
@@ -83,7 +88,17 @@ public class enemyFunction : MonoBehaviour {
             attack = true;
 			//attack the wizard
         }
-
+		if(attack){
+			if(currentCD <= 0){
+				Main.wizardHp -= 1;
+				//deal damage to wizard
+				currentCD = attackCD;
+				//reset cooldown of attack
+			}
+			else{
+				currentCD -= Time.deltaTime;
+			}
+		}
 	}
 
     // Targets point when mouse left click is held.
