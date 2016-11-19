@@ -1,0 +1,17 @@
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/obj/Debug/Assembly-CSharp.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/UnityEngine.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/UnityEditor.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Mono.Cecil.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Unity.DataContract.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/duncanlo/Documents/Programming/Unity/MageTowerUnity/MageTower-2/Temp/bin/Debug/Mono.Cecil.Mdb.dll
