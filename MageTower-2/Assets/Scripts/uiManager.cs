@@ -7,11 +7,12 @@ public class uiManager : MonoBehaviour {
     public Text hitPoint;
     public Text timer;
     public Text finance;
+	public Slider hitPointSlider;
 
     // Use this for initialization
     void Start()
     {
-
+		hitPointSlider.maxValue = Main.wizardHpMax;
     }
 
     // Update is called once per frame
@@ -32,6 +33,7 @@ public class uiManager : MonoBehaviour {
         hitPoint.text = healthCount;
         timer.text = timeCount;
         finance.text = moneyCount;
+		hitPointSlider.value = Main.wizardHp;
     }
 
 }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class enemyFunction : MonoBehaviour {
@@ -25,6 +26,16 @@ public class enemyFunction : MonoBehaviour {
 	float currentCD = 0;
 	//actual counter that counts down
 
+	//STATS
+	float maxHp = 10;
+	float hp = 10;
+
+	public Slider hpBar;
+	public float hpBarLength;
+	public float fullHpBarLength;
+
+	GUIStyle currentStyle;
+
     Ray ray;
     RaycastHit hit;
 
@@ -44,6 +55,15 @@ public class enemyFunction : MonoBehaviour {
             posA = 1;
 			//get odd index for location
         }
+
+		fullHpBarLength = 100;
+
+		/*hpBar = new Slider();
+		hpBar.minValue = 0;
+		hpBar.maxValue = maxHp;
+		hpBar.handleRect = null;
+		hpBar.interactable = false;
+		hpBar.transform.Translate(gameObject.transform.position - hpBar.transform.position);*/
 	}
 	
 	// Update is called once per frame
@@ -94,11 +114,13 @@ public class enemyFunction : MonoBehaviour {
 				//deal damage to wizard
 				currentCD = attackCD;
 				//reset cooldown of attack
+				hp--;
 			}
 			else{
 				currentCD -= Time.deltaTime;
 			}
 		}
+		displayCurrentHealth();
 	}
 
     // Targets point when mouse left click is held.
@@ -135,4 +157,32 @@ public class enemyFunction : MonoBehaviour {
             pickUp = false;
         }
     }
+
+	void OnGUI() {
+		currentStyle = new GUIStyle(GUI.skin.box);
+		currentStyle.normal.background = MakeTex(600, 1, new Color(0f, 1f, 0f, 0.5f));
+
+		if(hp > 0){
+			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, fullHpBarLength, 4), hp + "/" + maxHp);
+			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, hpBarLength, 4), hp + "/" + maxHp, currentStyle);
+		}
+		//BUG: OnGUI doesn't update often so when hp is negative the bar will go into the negatives
+	}
+
+	public void displayCurrentHealth() {
+		hpBarLength = fullHpBarLength * (hp /(float)maxHp);
+	}
+
+	Texture2D MakeTex(int width, int height, Color col) {
+		var pix = new Color[width * height];
+
+		for (int i = 0; i < pix.Length; i++) {
+			pix[i] = col;
+		}
+
+		var result = new Texture2D(width, height);
+		result.SetPixels(pix);
+		result.Apply();
+		return result;
+	}
 }

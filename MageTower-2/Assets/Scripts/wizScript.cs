@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class wizScript : MonoBehaviour {
-	float sideAccel = 1;
-	float sideSpeed = 1;
+	float xAccel = 1;
+	float xSpeed = 1;
 
 	// Use this for initialization
 	void Start () {
@@ -14,13 +14,17 @@ public class wizScript : MonoBehaviour {
 	void Update () {
 		//gameObject.transform.Rotate(new Vector3(0, 30, 0)*Time.deltaTime);
 
-		gameObject.transform.Translate(new Vector3(sideSpeed, 0, 0)*Time.deltaTime);
+		gameObject.transform.Translate(new Vector3(xSpeed, 0, 0)*Time.deltaTime);
 
 		if(gameObject.transform.position.x > 0.5){
-			sideSpeed += sideAccel * Time.deltaTime;
+			xSpeed += xAccel * Time.deltaTime;
 		}
 		if(gameObject.transform.position.x < -0.5){
-			sideSpeed -= sideAccel * Time.deltaTime;
+			xSpeed -= xAccel * Time.deltaTime;
+		}
+
+		if(Main.timer <= 0){
+			
 		}
 	}
 }
