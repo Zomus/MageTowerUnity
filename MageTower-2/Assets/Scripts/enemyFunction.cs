@@ -27,15 +27,16 @@ public class enemyFunction : MonoBehaviour {
 	//actual counter that counts down
 
 	//STATS
-	float maxHp = 10;
-	float hp = 10;
+	/*
+	float maxHp = 100;
+	float hp = 100;
 
 	public Slider hpBar;
 	public float hpBarLength;
 	public float fullHpBarLength;
 
 	GUIStyle currentStyle;
-
+*/
     Ray ray;
     RaycastHit hit;
 
@@ -56,7 +57,7 @@ public class enemyFunction : MonoBehaviour {
 			//get odd index for location
         }
 
-		fullHpBarLength = 100;
+		//fullHpBarLength = 50;
 
 		/*hpBar = new Slider();
 		hpBar.minValue = 0;
@@ -114,13 +115,13 @@ public class enemyFunction : MonoBehaviour {
 				//deal damage to wizard
 				currentCD = attackCD;
 				//reset cooldown of attack
-				hp--;
+				//hp--;
 			}
 			else{
 				currentCD -= Time.deltaTime;
 			}
 		}
-		displayCurrentHealth();
+		//displayCurrentHealth();
 	}
 
     // Targets point when mouse left click is held.
@@ -159,6 +160,7 @@ public class enemyFunction : MonoBehaviour {
     }
 
 	void OnGUI() {
+		/*
 		currentStyle = new GUIStyle(GUI.skin.box);
 		currentStyle.normal.background = MakeTex(600, 1, new Color(0f, 1f, 0f, 0.5f));
 
@@ -166,12 +168,12 @@ public class enemyFunction : MonoBehaviour {
 			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, fullHpBarLength, 4), hp + "/" + maxHp);
 			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, hpBarLength, 4), hp + "/" + maxHp, currentStyle);
 		}
-		//BUG: OnGUI doesn't update often so when hp is negative the bar will go into the negatives
+		//BUG: OnGUI doesn't update often so when hp is negative the bar will go into the negatives*/
 	}
 
-	public void displayCurrentHealth() {
+	/*public void displayCurrentHealth() {
 		hpBarLength = fullHpBarLength * (hp /(float)maxHp);
-	}
+	}*/
 
 	Texture2D MakeTex(int width, int height, Color col) {
 		var pix = new Color[width * height];

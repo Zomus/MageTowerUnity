@@ -50,6 +50,7 @@ public class Main : MonoBehaviour {
 
 		if(wizardHp <= 0){
 			GameObject.Find("Tower").transform.Rotate(new Vector3(45, 0, 0)*Time.deltaTime);
+			wizardHp = 0;
 		}
 	}
 
