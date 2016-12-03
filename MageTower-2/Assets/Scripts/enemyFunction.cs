@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class enemyFunction : MonoBehaviour {
@@ -26,12 +25,18 @@ public class enemyFunction : MonoBehaviour {
 	float currentCD = 0;
 	//actual counter that counts down
 
+
 	//STATS
+<<<<<<< HEAD
 	/*
 	float maxHp = 100;
 	float hp = 100;
+=======
+	float maxHp = 10;
+	float hp = 5;
+>>>>>>> 5ef3b943ade2cacd53e83f424b8db15813fc8784
 
-	public Slider hpBar;
+	public GameObject hpCanvas;
 	public float hpBarLength;
 	public float fullHpBarLength;
 
@@ -45,7 +50,7 @@ public class enemyFunction : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        walkspeed = 1.0f * Time.deltaTime;
+        walkspeed = 2.0f * Time.deltaTime;
 		//set walkspeed to 1 (times deltaTime (time elapsed per frame))
 
         enemy = GetComponent<Rigidbody>();
@@ -57,7 +62,13 @@ public class enemyFunction : MonoBehaviour {
 			//get odd index for location
         }
 
+<<<<<<< HEAD
 		//fullHpBarLength = 50;
+=======
+		hpCanvas = Main.enemyHpBarList[Main.enemyList.Find(this)]
+
+		//fullHpBarLength = 20;
+>>>>>>> 5ef3b943ade2cacd53e83f424b8db15813fc8784
 
 		/*hpBar = new Slider();
 		hpBar.minValue = 0;
@@ -65,6 +76,7 @@ public class enemyFunction : MonoBehaviour {
 		hpBar.handleRect = null;
 		hpBar.interactable = false;
 		hpBar.transform.Translate(gameObject.transform.position - hpBar.transform.position);*/
+
 	}
 	
 	// Update is called once per frame
@@ -115,13 +127,19 @@ public class enemyFunction : MonoBehaviour {
 				//deal damage to wizard
 				currentCD = attackCD;
 				//reset cooldown of attack
+<<<<<<< HEAD
 				//hp--;
+=======
+>>>>>>> 5ef3b943ade2cacd53e83f424b8db15813fc8784
 			}
 			else{
 				currentCD -= Time.deltaTime;
 			}
 		}
+<<<<<<< HEAD
 		//displayCurrentHealth();
+=======
+>>>>>>> 5ef3b943ade2cacd53e83f424b8db15813fc8784
 	}
 
     // Targets point when mouse left click is held.
@@ -160,21 +178,32 @@ public class enemyFunction : MonoBehaviour {
     }
 
 	void OnGUI() {
+<<<<<<< HEAD
 		/*
 		currentStyle = new GUIStyle(GUI.skin.box);
 		currentStyle.normal.background = MakeTex(600, 1, new Color(0f, 1f, 0f, 0.5f));
 
+=======
+		
+		hpBarLength = fullHpBarLength * (hp /(float)maxHp);
+>>>>>>> 5ef3b943ade2cacd53e83f424b8db15813fc8784
 		if(hp > 0){
-			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, fullHpBarLength, 4), hp + "/" + maxHp);
-			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, hpBarLength, 4), hp + "/" + maxHp, currentStyle);
+			//Debug.Log(hpBarLength);
+			currentStyle = new GUIStyle(GUI.skin.box);
+			currentStyle.normal.background = MakeTex((int)hpBarLength, 4, new Color(0f, 1f, 0f, 0.5f));
+			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 120, fullHpBarLength, 4), "");
+			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 120, hpBarLength, 4), "", currentStyle);
 		}
 		//BUG: OnGUI doesn't update often so when hp is negative the bar will go into the negatives*/
 	}
 
+<<<<<<< HEAD
 	/*public void displayCurrentHealth() {
 		hpBarLength = fullHpBarLength * (hp /(float)maxHp);
 	}*/
 
+=======
+>>>>>>> 5ef3b943ade2cacd53e83f424b8db15813fc8784
 	Texture2D MakeTex(int width, int height, Color col) {
 		var pix = new Color[width * height];
 
