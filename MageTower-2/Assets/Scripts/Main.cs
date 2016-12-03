@@ -26,7 +26,15 @@ public class Main : MonoBehaviour {
     public static int stageDefault = 0;
     public static int stageLimit = 0;
 
+	public static List<GameObject> enemyList = new List<GameObject>();
+	//list of references to enemies
+
     public GameObject enemyPrefab;
+
+	public static List<GameObject> enemyHpBarList = new List<GameObject>();
+	//parallel list of references to Hp bar of enemies
+
+	public GameObject hpBarPrefab;
 
 	// Use this for initialization
 	void Start () {
@@ -48,8 +56,9 @@ public class Main : MonoBehaviour {
             winFunction();
         }
 
-		if(wizardHp <= 0){
-			GameObject.Find("Tower").transform.Rotate(new Vector3(45, 0, 0)*Time.deltaTime);
+		if(wizardHp < 0){
+			wizardHp = 0;
+			//GameObject.Find("Tower").transform.Rotate(new Vector3(45, 0, 0)*Time.deltaTime);
 		}
 	}
 
@@ -58,13 +67,14 @@ public class Main : MonoBehaviour {
     {
         if (shifter == false)
         {
-            Instantiate(enemyPrefab, new Vector3(10,0.1f,0), Quaternion.identity);
+			enemyList.Add(Instantiate(enemyPrefab, new Vector3(10,0.1f,0), Quaternion.identity) as GameObject);
             shifter = true;
         } else if (shifter == true)
         {
-            Instantiate(enemyPrefab, new Vector3(-10,0.1f,0), Quaternion.identity);
+			enemyList.Add(Instantiate(enemyPrefab, new Vector3(-10,0.1f,0), Quaternion.identity) as GameObject);
             shifter = false;
         }
+		enemyHpBarList.Add(Instantiate(hpBarPrefab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject);
     }
 
     // This function handles what happens after portal time reaches 0.

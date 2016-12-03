@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 9450582b828bf774c96edcfeaa7b232c
-timeCreated: 1475885554
+timeCreated: 1480123086
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemyPrefab: {fileID: 176458, guid: 6c372de79939add47ac7bf0f605e7c39, type: 2}
+  - hpBarPrefab: {fileID: 1000012510333066, guid: dd7792375742e44379641190cbc17059,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

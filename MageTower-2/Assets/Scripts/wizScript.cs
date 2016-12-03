@@ -24,7 +24,7 @@ public class wizScript : MonoBehaviour {
 		}
 
 		if(Main.timer <= 0){
-			
+			//win?
 		}
 	}
 }

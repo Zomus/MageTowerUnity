@@ -28,9 +28,9 @@ public class enemyFunction : MonoBehaviour {
 
 	//STATS
 	float maxHp = 10;
-	float hp = 10;
+	float hp = 5;
 
-	public Slider hpBar;
+	public GameObject hpCanvas;
 	public float hpBarLength;
 	public float fullHpBarLength;
 
@@ -44,7 +44,7 @@ public class enemyFunction : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        walkspeed = 1.0f * Time.deltaTime;
+        walkspeed = 2.0f * Time.deltaTime;
 		//set walkspeed to 1 (times deltaTime (time elapsed per frame))
 
         enemy = GetComponent<Rigidbody>();
@@ -56,7 +56,9 @@ public class enemyFunction : MonoBehaviour {
 			//get odd index for location
         }
 
-		fullHpBarLength = 100;
+		hpCanvas = Main.enemyHpBarList[Main.enemyList.Find(this)]
+
+		fullHpBarLength = 20;
 
 		/*hpBar = new Slider();
 		hpBar.minValue = 0;
@@ -159,18 +161,16 @@ public class enemyFunction : MonoBehaviour {
     }
 
 	void OnGUI() {
-		currentStyle = new GUIStyle(GUI.skin.box);
-		currentStyle.normal.background = MakeTex(600, 1, new Color(0f, 1f, 0f, 0.5f));
-
+		
+		hpBarLength = fullHpBarLength * (hp /(float)maxHp);
 		if(hp > 0){
-			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, fullHpBarLength, 4), hp + "/" + maxHp);
-			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 100, hpBarLength, 4), hp + "/" + maxHp, currentStyle);
+			//Debug.Log(hpBarLength);
+			currentStyle = new GUIStyle(GUI.skin.box);
+			currentStyle.normal.background = MakeTex((int)hpBarLength, 4, new Color(0f, 1f, 0f, 0.5f));
+			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 120, fullHpBarLength, 4), "");
+			GUI.Box(new Rect(Camera.main.WorldToScreenPoint(transform.position).x - fullHpBarLength/2, Camera.main.WorldToScreenPoint(-transform.position).y + 120, hpBarLength, 4), "", currentStyle);
 		}
 		//BUG: OnGUI doesn't update often so when hp is negative the bar will go into the negatives
-	}
-
-	public void displayCurrentHealth() {
-		hpBarLength = fullHpBarLength * (hp /(float)maxHp);
 	}
 
 	Texture2D MakeTex(int width, int height, Color col) {
