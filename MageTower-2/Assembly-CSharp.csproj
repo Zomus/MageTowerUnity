@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\springTrap.cs" />
      <Compile Include="Assets\Scripts\uiManager.cs" />
      <Compile Include="Assets\Scripts\wizScript.cs" />
+     <Compile Include="Assets\SpringTrapController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

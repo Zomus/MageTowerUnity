@@ -28,6 +28,8 @@ public class Main : MonoBehaviour {
 
     public GameObject enemyPrefab;
 
+	public static List<GameObject> enemyList = new List<GameObject>();
+
 	// Use this for initialization
 	void Start () {
 		stagePrep();
@@ -57,15 +59,17 @@ public class Main : MonoBehaviour {
     // This function creates enemy, switching between leftside and rightside.
     void enemyCreator()
     {
+		
         if (shifter == false)
         {
-            Instantiate(enemyPrefab, new Vector3(10,0.1f,0), Quaternion.identity);
+			enemyList.Add(Instantiate(enemyPrefab, new Vector3(10,0.1f,0), Quaternion.identity) as GameObject);
             shifter = true;
         } else if (shifter == true)
         {
-            Instantiate(enemyPrefab, new Vector3(-10,0.1f,0), Quaternion.identity);
+			enemyList.Add(Instantiate(enemyPrefab, new Vector3(-10,0.1f,0), Quaternion.identity) as GameObject);
             shifter = false;
         }
+
     }
 
     // This function handles what happens after portal time reaches 0.
