@@ -45,7 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyHpBarController.cs" />
      <Compile Include="Assets\MageHand\MageHandController.cs" />
      <Compile Include="Assets\Scripts\Legacy\enemyController.cs" />
      <Compile Include="Assets\Scripts\Main.cs" />
