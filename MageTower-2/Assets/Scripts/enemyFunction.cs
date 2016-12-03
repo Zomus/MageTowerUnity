@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class enemyFunction : MonoBehaviour {
@@ -26,6 +25,7 @@ public class enemyFunction : MonoBehaviour {
 	float currentCD = 0;
 	//actual counter that counts down
 
+<<<<<<< HEAD
 	//STATS
 	float maxHp = 10;
 	float hp = 5;
@@ -36,6 +36,8 @@ public class enemyFunction : MonoBehaviour {
 
 	GUIStyle currentStyle;
 
+=======
+>>>>>>> parent of c0ef3c4... Added HP Bar to Wizard and Enemies
     Ray ray;
     RaycastHit hit;
 
@@ -55,6 +57,7 @@ public class enemyFunction : MonoBehaviour {
             posA = 1;
 			//get odd index for location
         }
+<<<<<<< HEAD
 
 		hpCanvas = Main.enemyHpBarList[Main.enemyList.Find(this)]
 
@@ -66,6 +69,8 @@ public class enemyFunction : MonoBehaviour {
 		hpBar.handleRect = null;
 		hpBar.interactable = false;
 		hpBar.transform.Translate(gameObject.transform.position - hpBar.transform.position);*/
+=======
+>>>>>>> parent of c0ef3c4... Added HP Bar to Wizard and Enemies
 	}
 	
 	// Update is called once per frame
@@ -116,13 +121,11 @@ public class enemyFunction : MonoBehaviour {
 				//deal damage to wizard
 				currentCD = attackCD;
 				//reset cooldown of attack
-				hp--;
 			}
 			else{
 				currentCD -= Time.deltaTime;
 			}
 		}
-		displayCurrentHealth();
 	}
 
     // Targets point when mouse left click is held.
@@ -159,6 +162,7 @@ public class enemyFunction : MonoBehaviour {
             pickUp = false;
         }
     }
+<<<<<<< HEAD
 
 	void OnGUI() {
 		
@@ -185,4 +189,6 @@ public class enemyFunction : MonoBehaviour {
 		result.Apply();
 		return result;
 	}
+=======
+>>>>>>> parent of c0ef3c4... Added HP Bar to Wizard and Enemies
 }
