@@ -35,17 +35,14 @@ public class MageHandController : MonoBehaviour {
 			anim.SetBool("Walking", false);
 		}
 
-
-		if(Input.GetMouseButtonDown(0)){
+		if(Input.GetMouseButtonDown(0)){ //when mouse is pressed
 			anim.SetBool("Grabbing", true);
-			cooldown = 1;
-		}
-		if(cooldown < 0){
-			anim.SetBool("Grabbing", false);
+			//change the animation to grabbing state
 		}
 
-		else{
-			cooldown -= Time.deltaTime * 2;
+		if(Input.GetMouseButtonUp(0)){ //when mouse is released
+			anim.SetBool("Grabbing", false);
+			//change the animation to release state
 		}
 		//Debug.Log("Grabbing: "+anim.GetBool("Grabbing"));
 	}
