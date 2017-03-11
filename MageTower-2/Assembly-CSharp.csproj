@@ -49,6 +49,7 @@
      <Compile Include="Assets\MageHand\MageHandController.cs" />
      <Compile Include="Assets\Scripts\Legacy\enemyController.cs" />
      <Compile Include="Assets\Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\TrapController.cs" />
      <Compile Include="Assets\Scripts\enemyFunction.cs" />
      <Compile Include="Assets\Scripts\flowerMenu.cs" />
      <Compile Include="Assets\Scripts\portalCode.cs" />
