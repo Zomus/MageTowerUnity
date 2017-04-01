@@ -19,12 +19,7 @@ public class TrapController : MonoBehaviour{
 	}*/
 
 	void Start(){
-		for(int i = -10; i < 10; i++){
-			for(int j = -2; j < 2; j++){
-				GameObject tempTile = Instantiate(tilePrefab, new Vector3(i, 0, j), Quaternion.identity, tileContainer.transform) as GameObject;
-				tempTile.transform.localScale = new Vector3(1.5f, 0.5f, 1.5f);
-			}
-		}
+		
 	}
 
 	void Update(){

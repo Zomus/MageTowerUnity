@@ -78,7 +78,7 @@ public class Main : MonoBehaviour {
         stageStart = false;
         stage++;
         preSet = false;
-        string stageName = "sceneStage" + stage;
+        //string stageName = "sceneStage" + stage;
         Debug.Log("Next Level Ready");
         //Play some fancy animation.
         new WaitForSeconds(10);
