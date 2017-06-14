@@ -45,7 +45,7 @@ public class Block : MonoBehaviour {
 	public Transform getChild(string name){
 		//getChild obtains the Transform of a child in this GameObject with the name 'name'
 
-		Transform selectedChild;
+		//Transform selectedChild;
 		//Transform of the selected child
 
 		foreach (Transform child in transform){ //for loop searches through the parent GameObject's Transform

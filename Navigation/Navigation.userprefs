@@ -1,24 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../MageTowerUnity/MageTower-2/Assets/Scripts/TrapController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/MoveTo.cs" Line="51" Column="4" />
+      <File FileName="Assets/MoveTo.cs" Line="1" Column="1" />
       <File FileName="Assets/PauseMenu.cs" Line="1" Column="1" />
-      <File FileName="../MageTowerUnity/MageTower-2/Assets/Scripts/springTrap.cs" Line="1" Column="1" />
-      <File FileName="../MageTowerUnity/MageTower-2/Assets/Scripts/Main.cs" Line="2" Column="1" />
-      <File FileName="../MageTowerUnity/MageTower-2/Assets/Scripts/TrapController.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Navigation" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="TrapController.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
