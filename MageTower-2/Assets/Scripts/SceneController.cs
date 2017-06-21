@@ -131,10 +131,21 @@ public class SceneController : MonoBehaviour {
 
 		tempEnemy.GetComponent<Enemy>().Initialize(spawnFloor, goalFloor, 3);
 
+		//Removes gravity to allow normal climbing
+		tempEnemy.GetComponent<CapsuleCollider>().enabled = false;
+		tempEnemy.AddComponent<Rigidbody>();
+		tempEnemy.GetComponent<Rigidbody>().useGravity = false;
+
+
+
 		tempEnemy.AddComponent<NavMeshAgent>();
 		//add a navmesh agent component to allow it to navigate around obstacles
-		tempEnemy.AddComponent<BoxCollider>();
-		//Add a collider to the tile to allow raycast collision
+
+		//EDIT THE FOLLOWING TO AVOID SPEEDY ENEMY U-TURN
+		//tempEnemy.GetComponent<NavMeshAgent>().
+
+		//tempEnemy.AddComponent<BoxCollider>();
+		//Add a collider to the tile to allow raycast collision\
 
 		enemyList.Add(tempEnemy.GetComponent<Enemy>());
 		//add enemy to enemyList so it can be accessed later
