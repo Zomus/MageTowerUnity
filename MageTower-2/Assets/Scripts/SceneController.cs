@@ -10,23 +10,24 @@ public class SceneController : MonoBehaviour {
 	public Transform player;
 
 	//PLAYER STATS
-	public static int wizardHpMax = 10;
+	public int wizardHpMax = 10;
 	//player max HP
-	public static int wizardHp = wizardHpMax;
+	public int wizardHp = 10;
 	//player current HP
 
-	public static int finance = 0;
+	public int finance = 0;
 	//coins the player has collected
-	public static int timer = 0;
-	//timer until portal opens and player escapes
-	public static int stage = 1;
+	public int stageTime = 100;
+	//seconds until portal opens and player escapes
+	public int stage = 1;
 	//stage number for spawn arrays
-	public static int enemyLeft = 0;
+	public int enemyLeft = 0;
 	//enemies left to be spawned in this level
-	public static int tick = 0;
 
-	public static float levelTime;
-	//Time at which the level began
+	public bool stageTimerRunning = false;
+	//whether the stage timer is counting
+	public float stageTimer = 0;
+	//counts time when stage begins
 
 
 	//MOUSE CONTROLS
@@ -54,13 +55,20 @@ public class SceneController : MonoBehaviour {
 	public GameObject enemyPrefab;
 	//Prefab (blueprint) of spawned enemies
 
-	public List<Enemy> enemyList;
+	public List<Enemy> enemyList = new List<Enemy>();
 	//List of enemies that are currently on the screen (in play)
 	public float lastSpawnTime;
-	//Time at which the last enemy spawn occured*/
+	//time at which the last enemy spawn occured since stage start
+	public float spawnRate;
+	//time before another enemy spawns
 
+	public GameObject spawnCapsule;
+	//capsule in game that specifies where enemies are spawned
+	public int spawnFloor;
+	//specifies floor location of spawnCapsule
 
-
+	public GameObject goal;
+	public int goalFloor;
 
 	// Use this for initialization
 	void Start () {
@@ -70,6 +78,8 @@ public class SceneController : MonoBehaviour {
 
 		pauseMenu.gameObject.SetActive(false);
 		//disable pausemenu
+
+		stageTimerRunning = true;
 
 		//SPAWN ALL BLOCKS
 		int height = 0;
@@ -118,10 +128,16 @@ public class SceneController : MonoBehaviour {
 		tempEnemy.transform.localScale = new Vector3(1f, 1f, 1f);
 		tempEnemy.AddComponent<Enemy>();
 		//Add the Block script to let it function as a block
+
+		tempEnemy.GetComponent<Enemy>().Initialize(spawnFloor, goalFloor, 3);
+
 		tempEnemy.AddComponent<NavMeshAgent>();
 		//add a navmesh agent component to allow it to navigate around obstacles
-		//tempEnemy.AddComponent<BoxCollider>();
-		//Add a collider to the tile to allow 
+		tempEnemy.AddComponent<BoxCollider>();
+		//Add a collider to the tile to allow raycast collision
+
+		enemyList.Add(tempEnemy.GetComponent<Enemy>());
+		//add enemy to enemyList so it can be accessed later
 	}
 
 	// Update is called once per frame
@@ -131,8 +147,23 @@ public class SceneController : MonoBehaviour {
 			highlightedTile.assignNewMaterial("Default");
 			highlightedTile = null;
 		}//reassign default material to reset texture of selected tile every frame
+
 		castRay();
 
+
+		//ENEMY SPAWNING
+		if(stageTimerRunning){ //if the timer is counting
+			stageTimer += Time.deltaTime;
+			//count up the timer
+		}
+			
+		if(stageTimer - lastSpawnTime > spawnRate){ //time elapsed is enough to spawn another enemy
+
+			spawnEnemy(spawnCapsule.transform.position.x, spawnCapsule.transform.position.y, spawnCapsule.transform.position.z);
+			//spawn the enemy
+			lastSpawnTime = stageTimer;
+			//set the last spawn time to now
+		}
 
 		//PAUSE MENU
 		if(Input.GetKeyDown(KeyCode.P)){ //if the p key is pressed

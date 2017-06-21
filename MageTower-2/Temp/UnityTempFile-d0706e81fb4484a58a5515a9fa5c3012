@@ -92,7 +92,6 @@
 'Assets/Scripts/Legacy/portalCode.cs'
 'Assets/Scripts/Legacy/uiManager.cs'
 'Assets/Scripts/Legacy/wizScript.cs'
-'Assets/Scripts/PauseController.cs'
 'Assets/Scripts/SceneController.cs'
 'Assets/Unused Items/TrapButtonController.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
