@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/New Tower Model.unity
-  isLoaded: 1
-  isActive: 1
