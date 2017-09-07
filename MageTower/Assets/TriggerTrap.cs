@@ -20,7 +20,7 @@ public class TriggerTrap : MonoBehaviour {
 
 					other.GetComponent<Rigidbody>().velocity = new Vector3(0f, 10f, 0f);
 					//fling it up with a force
-					Debug.Log(other.GetComponent<NavMeshAgent>().enabled);
+					Debug.Log(other.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled);
 					tileRef.ready = false;
 
 					tileRef.trapRef.GetComponent<Animator>().SetBool("Triggered", true);

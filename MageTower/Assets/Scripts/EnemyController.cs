@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
 	Ray ray;
 	RaycastHit hit;
 
-	NavMeshAgent agent;
+	UnityEngine.AI.NavMeshAgent agent;
 	Rigidbody rb;
 
 	private int currentFloor;
@@ -53,7 +53,7 @@ public class EnemyController : MonoBehaviour
 	{
 		currentFloor = (int)transform.position.y;
 
-		agent = GetComponent<NavMeshAgent>();
+		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		rb = GetComponent<Rigidbody>();
 
 		agent.enabled = false;
@@ -235,7 +235,7 @@ public class EnemyController : MonoBehaviour
 		return possiblePaths;
 	}
 
-	bool destReached(NavMeshAgent mNavMeshAgent){
+	bool destReached(UnityEngine.AI.NavMeshAgent mNavMeshAgent){
 		if (!mNavMeshAgent.pathPending){
 			if (mNavMeshAgent.remainingDistance <= mNavMeshAgent.stoppingDistance){
 				if (!mNavMeshAgent.hasPath || mNavMeshAgent.velocity.sqrMagnitude == 0f){

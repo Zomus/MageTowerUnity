@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{8EB9B4B6-F83C-B5D3-E884-F42AB4CC827D}") = "MageTower", "Assembly-CSharp.csproj", "{57DB9F3E-2956-9E1D-C0C0-5133F2298FB7}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MageTower", "Assembly-CSharp.csproj", "{57DB9F3E-2956-9E1D-C0C0-5133F2298FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
