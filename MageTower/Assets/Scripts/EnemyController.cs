@@ -8,12 +8,21 @@ public class EnemyController : MonoBehaviour
 	//how tall half the enemy is (used to offset the height of enemy to determine whether it is finished climbing)
 
 	private GameObject goal;
-	//Transform object of the goal that this character wants to reach, in game space
+	//goal that this character wants to reach, in game space
+
+	private GameObject particleContainer;
+	//container that parents all particle effects
+
+	public GameObject deathsplosion;
+	//prefab of explosion
+
+	Animator anim;
+	//animator that controls the animation of the enemy
 
 	Ray ray;
 	RaycastHit hit;
 
-	UnityEngine.AI.NavMeshAgent agent;
+	public UnityEngine.AI.NavMeshAgent agent;
 	Rigidbody rb;
 
 	private int currentFloor;
@@ -52,15 +61,19 @@ public class EnemyController : MonoBehaviour
 	void Start ()
 	{
 		currentFloor = (int)transform.position.y;
-
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		rb = GetComponent<Rigidbody>();
 
 		agent.enabled = false;
 		//disable the agent until it hits the ground
 
+		anim = transform.Find("Badguy").GetComponent<Animator>();
+		//animation component attached to the model that is child of the enemy
+
+		particleContainer = GameController.main.particleContainer;
 		goal = GameController.main.goalCapsule;
 		//set goal as dictated by the scene controller to the goal of this enemy
+
 
 	}
 	
@@ -71,6 +84,10 @@ public class EnemyController : MonoBehaviour
 			GameObject nextDestination = destList[nextDestIndex];
 			//next destination in the list
 
+
+
+			Debug.Log("State: " + anim.GetInteger("State"));
+
 			if(targetFloor > currentFloor){
 				//AGENT CLIMBS UP
 				climbing = 1;
@@ -78,14 +95,20 @@ public class EnemyController : MonoBehaviour
 				if(nextDestination.tag == "Ladder"){
 					climbTargetElevation = nextDestination.GetComponent<LadderController>().topFloor;
 				}
+
+				anim.SetInteger("State", 3);
+				//climbing
 			}
-			else{
+			else if (targetFloor < currentFloor){
 				//AGENT CLIMBS DOWN
 				climbing = -1;
 				rb.velocity = new Vector3(0f, -climbSpeed, 0f);
 				if(nextDestination.tag == "Ladder"){
 					climbTargetElevation = nextDestination.GetComponent<LadderController>().bottomFloor;
 				}
+
+				anim.SetInteger("State", 3);
+				//climbing
 			}
 			//Debug.Log(climbing);
 			rb.useGravity = false;
@@ -112,6 +135,9 @@ public class EnemyController : MonoBehaviour
 				agent.destination = destList[nextDestIndex].transform.position;
 				//set the agent's destination to the upcoming destination
 
+				anim.SetInteger("State", 1);
+				//walking
+
 			}
 			if(gameObject.transform.position.y - halfEnemyHeight <= climbTargetElevation && climbing < 0){//climbing down, at or exceeded targetElevation
 				climbing = 0;
@@ -129,6 +155,9 @@ public class EnemyController : MonoBehaviour
 				agent.destination = destList[nextDestIndex].transform.position;
 				//set the agent's destination to the upcoming destination
 
+				anim.SetInteger("State", 1);
+				//walking
+
 				//REPEATED CODE...will clean up later
 			}
 		}
@@ -141,11 +170,26 @@ public class EnemyController : MonoBehaviour
 		List<List<GameObject>> allPaths = generateAllPaths(currentFloor, newFloor, newGoal);
 		//all the paths that can be taken to the goal
 
-		destList = allPaths[(int)(Random.value * allPaths.Count)];
+		if (allPaths.Count == 0) {
+			//No paths
+			agent.destination = transform.position;
+			//set its destination to where it already is
+
+			return;
+			//don't run other code that searchs and set new paths
+		}
+
+		int selectedIndex = (int)(Random.value * allPaths.Count);
+		//index of path selected
+
+		destList = allPaths[selectedIndex];
 		//select a random path from allPaths generated
 
 		nextDestIndex = 0;
 		//index of next destination in the selected path (destList)
+
+		agent.updatePosition = true;
+		agent.updateRotation = true;
 
 		agent.destination = destList[0].transform.position;
 		//go to next destination
@@ -249,13 +293,23 @@ public class EnemyController : MonoBehaviour
 	public void lifted(){
 		//runs when lifted off the ground (by traps or hand)
 
-		rb.useGravity = true;
-		//apply gravity
+		if(!levitated){
+			levitated = true;
 
-		agent.enabled = false;
-		//stop navigating
+			anim.SetInteger("State", 0);
+			//idle (change to flailing later)
 
-		wait(0.25f);
+			Debug.Log("State: " + anim.GetInteger("State"));
+
+			rb.useGravity = true;
+			//apply gravity
+
+			agent.enabled = false;
+			//stop navigating
+
+			StartCoroutine(wait(0.25f));
+		}
+
 	}
 
 	IEnumerator wait(float delay){
@@ -263,16 +317,55 @@ public class EnemyController : MonoBehaviour
 	}
 
 	public void landed(int elevation){
-		rb.useGravity = false;
-		//stop applying gravity
+		if(levitated){
+			levitated = false;
 
-		agent.enabled = true;
-		//enable the NavMeshAgent
+			anim.SetInteger("State", 1);
+			//walking
+			Debug.Log("State: " + anim.GetInteger("State"));
 
-		currentFloor = elevation;
+			rb.useGravity = false;
+			//stop applying gravity
 
-		setNewDest(targetFloor, goal);
-		//set new destination for the NavMeshAgent
+			agent.enabled = true;
+			//enable the NavMeshAgent
+
+			currentFloor = elevation;
+
+			setNewDest(targetFloor, goal);
+			//set new destination for the NavMeshAgent
+
+			Debug.Log("landed");
+		}
+	}
+
+	public void death(){
+		anim.SetInteger("State", -1);
+		//fall
+
+		Debug.Log("State: " + anim.GetInteger("State"));
+
+		Debug.Log("DEATHSPLOSION!");
+
+		StartCoroutine(waitForExplode(1f));
+		//wait 2 second, before dissolving
+	}
+
+	private IEnumerator waitForExplode(float delay){
+		yield return new WaitForSeconds(delay);
+
+		Debug.Log("DEATHSPLOSION!");
+
+		GameObject tempExplosion = Instantiate (deathsplosion, transform.position, Quaternion.Euler(-90f, 0f, 0f), particleContainer.transform) as GameObject;
+		tempExplosion.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
+		Destroy (this.gameObject);
+	}
+
+	public void attackWizard(){
+		anim.SetInteger("State", 2);
+		//attacking
+
+		Debug.Log("State: " + anim.GetInteger("State"));
 	}
 	
 }

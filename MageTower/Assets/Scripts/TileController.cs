@@ -36,16 +36,22 @@ public class TileController : MonoBehaviour {
 		trapRef = trap;
 	}
 
-	
-	// Update is called once per frame
-	void Update () {
-	}
-
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Enemy"){ //block hits an enemy
-			if(other.GetComponent<Rigidbody>().velocity.y < 0 && other.GetComponent<EnemyController>() != null){
-				other.GetComponent<EnemyController>().landed((int)transform.position.y);
-				//let the enemy know that it has landed
+			if (other.GetComponent<EnemyController>().agent.enabled) {
+				return;
+			}
+			float landSpeed = other.GetComponent<Rigidbody> ().velocity.y;
+			if(landSpeed < 0f && other.GetComponent<EnemyController>() != null){
+				Debug.Log ("Landed at a speed of: " + landSpeed);
+				if (landSpeed < -9f) {
+					other.GetComponent<EnemyController> ().death ();
+					//dies from fall damage
+				} else {
+					other.GetComponent<EnemyController>().landed((int)transform.position.y);
+					//let the enemy know that it has landed
+				}
+
 			}
 		}
 

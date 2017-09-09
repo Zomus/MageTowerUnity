@@ -46,10 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AttackTrigger.cs" />
-     <Compile Include="Assets\LadderController.cs" />
+     <Compile Include="Assets\Scripts\AttackTrigger.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\LadderController.cs" />
      <Compile Include="Assets\Scripts\MageHandController.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\Main.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\enemyController.cs" />
@@ -57,12 +57,13 @@
      <Compile Include="Assets\Scripts\Old Scripts\portalCode.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\uiManager.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\wizScript.cs" />
+     <Compile Include="Assets\Scripts\ParticleSelfDestruct.cs" />
      <Compile Include="Assets\Scripts\TileController.cs" />
-     <Compile Include="Assets\TrapController.cs" />
-     <Compile Include="Assets\TriggerTrap.cs" />
+     <Compile Include="Assets\Scripts\TrapController.cs" />
+     <Compile Include="Assets\Scripts\TriggerTrap.cs" />
      <Compile Include="Assets\Unused Items\TrapButtonController.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/duncanlo/Documents/University of Calgary/Game Design Club/MageTowerUnity/MageTower/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/duncanlo/Documents/University of Calgary/Game Design Club/MageTower/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

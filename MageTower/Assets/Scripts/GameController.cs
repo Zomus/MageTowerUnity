@@ -73,6 +73,9 @@ public class GameController : MonoBehaviour {
 	public GameObject ladderContainer;
 	//parent GameObject that contains all ladders
 
+	public GameObject particleContainer;
+	//parent GameObject that contains all particle effects
+
 	// Use this for initialization
 	void Start () {
 
@@ -133,7 +136,7 @@ public class GameController : MonoBehaviour {
 	void spawnTile(float xPos, float yPos, float zPos){
 		//FUNCTION spawnTile: Creates a single game tile at (xPos, yPos, zPos) and load it onto the screen
 
-		GameObject tempTile = Instantiate(tilePrefab, new Vector3(xPos + 0.5f, yPos - 0.5f, zPos + 0.5f), Quaternion.identity, tileContainer.transform) as GameObject;
+		Instantiate(tilePrefab, new Vector3(xPos, yPos, zPos), Quaternion.identity, tileContainer.transform);
 		/*tempTile.transform.localScale = new Vector3(1f, 1f, 1f);
 		tempTile.AddComponent<TileController>();
 		//Add the Block script to let it function as a block
@@ -245,7 +248,7 @@ public class GameController : MonoBehaviour {
 					}else{ //otherwise reset the trap so it can be ready again
 						Debug.Log("Trap resetted");
 						selectedTile.ready = true;
-						selectedTile.trapRef.GetComponent<Animator>().SetBool("Triggered", false);
+						selectedTile.trapRef.GetComponent<TrapController>().resetTrapAnimation();
 					}
 
 

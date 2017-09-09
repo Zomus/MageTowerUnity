@@ -1,0 +1,4638 @@
+fileFormatVersion: 2
+guid: f906516bc20e6410780d911432334660
+timeCreated: 1504929236
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm1_L
+    100002: Arm1_R
+    100004: Arm2_L
+    100006: Arm2_L_end
+    100008: Arm2_R
+    100010: Arm2_R_end
+    100012: //RootNode
+    100014: BadguyArmature
+    100016: BadguyMesh
+    100018: Chest
+    100020: Elbow_L
+    100022: Elbow_L_end
+    100024: Elbow_R
+    100026: Elbow_R_end
+    100028: Foot_L
+    100030: Foot_L_end
+    100032: Foot_R
+    100034: Foot_R_end
+    100036: Hand_L
+    100038: Hand_R
+    100040: Head
+    100042: Head_end
+    100044: Hip
+    100046: Index_L
+    100048: Index_L.001
+    100050: Index_L.002
+    100052: Index_L.002_end
+    100054: Index_R
+    100056: Index_R.001
+    100058: Index_R.002
+    100060: Index_R.002_end
+    100062: Knee_L
+    100064: Knee_L_end
+    100066: Knee_R
+    100068: Knee_R_end
+    100070: Leg_L
+    100072: Leg_L_end
+    100074: Leg_R
+    100076: Leg_R_end
+    100078: Little_L
+    100080: Little_L.001
+    100082: Little_L.002
+    100084: Little_L.002_end
+    100086: Little_R
+    100088: Little_R.001
+    100090: Little_R.002
+    100092: Little_R.002_end
+    100094: Master
+    100096: Middle_L
+    100098: Middle_L.001
+    100100: Middle_L.002
+    100102: Middle_L.002_end
+    100104: Middle_R
+    100106: Middle_R.001
+    100108: Middle_R.002
+    100110: Middle_R.002_end
+    100112: Neck
+    100114: Ring_L
+    100116: Ring_L.001
+    100118: Ring_L.002
+    100120: Ring_L.002_end
+    100122: Ring_R
+    100124: Ring_R.001
+    100126: Ring_R.002
+    100128: Ring_R.002_end
+    100130: Shoulder_L
+    100132: Shoulder_R
+    100134: Sword
+    100136: Thigh_L
+    100138: Thigh_R
+    100140: Thumb_L
+    100142: Thumb_L.001
+    100144: Thumb_L.002
+    100146: Thumb_L.002_end
+    100148: Thumb_R
+    100150: Thumb_R.001
+    100152: Thumb_R.002
+    100154: Thumb_R.002_end
+    100156: Waist
+    100158: WholeLeg_L
+    100160: WholeLeg_R
+    400000: Arm1_L
+    400002: Arm1_R
+    400004: Arm2_L
+    400006: Arm2_L_end
+    400008: Arm2_R
+    400010: Arm2_R_end
+    400012: //RootNode
+    400014: BadguyArmature
+    400016: BadguyMesh
+    400018: Chest
+    400020: Elbow_L
+    400022: Elbow_L_end
+    400024: Elbow_R
+    400026: Elbow_R_end
+    400028: Foot_L
+    400030: Foot_L_end
+    400032: Foot_R
+    400034: Foot_R_end
+    400036: Hand_L
+    400038: Hand_R
+    400040: Head
+    400042: Head_end
+    400044: Hip
+    400046: Index_L
+    400048: Index_L.001
+    400050: Index_L.002
+    400052: Index_L.002_end
+    400054: Index_R
+    400056: Index_R.001
+    400058: Index_R.002
+    400060: Index_R.002_end
+    400062: Knee_L
+    400064: Knee_L_end
+    400066: Knee_R
+    400068: Knee_R_end
+    400070: Leg_L
+    400072: Leg_L_end
+    400074: Leg_R
+    400076: Leg_R_end
+    400078: Little_L
+    400080: Little_L.001
+    400082: Little_L.002
+    400084: Little_L.002_end
+    400086: Little_R
+    400088: Little_R.001
+    400090: Little_R.002
+    400092: Little_R.002_end
+    400094: Master
+    400096: Middle_L
+    400098: Middle_L.001
+    400100: Middle_L.002
+    400102: Middle_L.002_end
+    400104: Middle_R
+    400106: Middle_R.001
+    400108: Middle_R.002
+    400110: Middle_R.002_end
+    400112: Neck
+    400114: Ring_L
+    400116: Ring_L.001
+    400118: Ring_L.002
+    400120: Ring_L.002_end
+    400122: Ring_R
+    400124: Ring_R.001
+    400126: Ring_R.002
+    400128: Ring_R.002_end
+    400130: Shoulder_L
+    400132: Shoulder_R
+    400134: Sword
+    400136: Thigh_L
+    400138: Thigh_R
+    400140: Thumb_L
+    400142: Thumb_L.001
+    400144: Thumb_L.002
+    400146: Thumb_L.002_end
+    400148: Thumb_R
+    400150: Thumb_R.001
+    400152: Thumb_R.002
+    400154: Thumb_R.002_end
+    400156: Waist
+    400158: WholeLeg_L
+    400160: WholeLeg_R
+    2300000: Sword
+    3300000: Sword
+    4300000: Sword
+    4300002: BadguyMesh
+    7400000: BadguyArmature|Action
+    7400002: BadguyArmature|Attack (Armour)
+    7400004: BadguyArmature|Attack (No Armour)
+    7400006: BadguyArmature|Attack (No Armour).001
+    7400008: BadguyArmature|ClimbingLadder
+    7400010: BadguyArmature|Cube.002Action
+    7400012: BadguyArmature|Fall (Armour)
+    7400014: BadguyArmature|Fall (No Armour)
+    7400016: BadguyArmature|GetOffLader
+    7400018: BadguyArmature|Idle (Armour)
+    7400020: BadguyArmature|Idle (No Armour)
+    7400022: BadguyArmature|Ladder.001Action
+    7400024: BadguyArmature|LampAction
+    7400026: BadguyArmature|PointAction
+    7400028: BadguyArmature|Run (Armour) (NoWeapon)
+    7400030: BadguyArmature|Run (Armour) (Weapon)
+    7400032: BadguyArmature|Run (No Armour) (NoWeapon)
+    7400034: BadguyArmature|Run (No Armour) (Weapon)
+    7400036: Sword|Action
+    7400038: Sword|Cube.002Action
+    7400040: Sword|Ladder.001Action
+    7400042: Sword|LampAction
+    7400044: Sword|PointAction
+    9500000: //RootNode
+    13700000: BadguyMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BadguyArmature|Action
+      takeName: BadguyArmature|Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Attack (Armour)
+      takeName: BadguyArmature|Attack (Armour)
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Attack (No Armour)
+      takeName: BadguyArmature|Attack (No Armour)
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Attack (No Armour).001
+      takeName: BadguyArmature|Attack (No Armour).001
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|ClimbingLadder
+      takeName: BadguyArmature|ClimbingLadder
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Cube.002Action
+      takeName: BadguyArmature|Cube.002Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Fall (Armour)
+      takeName: BadguyArmature|Fall (Armour)
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Fall (No Armour)
+      takeName: BadguyArmature|Fall (No Armour)
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|GetOffLader
+      takeName: BadguyArmature|GetOffLader
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Idle (Armour)
+      takeName: BadguyArmature|Idle (Armour)
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Idle (No Armour)
+      takeName: BadguyArmature|Idle (No Armour)
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Ladder.001Action
+      takeName: BadguyArmature|Ladder.001Action
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|LampAction
+      takeName: BadguyArmature|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|PointAction
+      takeName: BadguyArmature|PointAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Run (Armour) (NoWeapon)
+      takeName: BadguyArmature|Run (Armour) (NoWeapon)
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Run (Armour) (Weapon)
+      takeName: BadguyArmature|Run (Armour) (Weapon)
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Run (No Armour) (NoWeapon)
+      takeName: BadguyArmature|Run (No Armour) (NoWeapon)
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BadguyArmature|Run (No Armour) (Weapon)
+      takeName: BadguyArmature|Run (No Armour) (Weapon)
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword|Action
+      takeName: Sword|Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword|Cube.002Action
+      takeName: Sword|Cube.002Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword|Ladder.001Action
+      takeName: Sword|Ladder.001Action
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword|LampAction
+      takeName: Sword|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword|PointAction
+      takeName: Sword|PointAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BadguyArmature
+        weight: 1
+      - path: BadguyArmature/Master
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R
+        weight: 1
+      - path: BadguyArmature/Master/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Index_L/Index_L.001/Index_L.002/Index_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Little_L/Little_L.001/Little_L.002/Little_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Middle_L/Middle_L.001/Middle_L.002/Middle_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Ring_L/Ring_L.001/Ring_L.002/Ring_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_L/Thumb_L/Thumb_L.001/Thumb_L.002/Thumb_L.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Index_R/Index_R.001/Index_R.002/Index_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Little_R/Little_R.001/Little_R.002/Little_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Middle_R/Middle_R.001/Middle_R.002/Middle_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Ring_R/Ring_R.001/Ring_R.002/Ring_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Sword
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002
+        weight: 1
+      - path: BadguyArmature/Master/Hand_R/Thumb_R/Thumb_R.001/Thumb_R.002/Thumb_R.002_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_L/Leg_L/Leg_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Thigh_R/Leg_R/Leg_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_L/Arm1_L/Arm2_L/Arm2_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R
+        weight: 1
+      - path: BadguyArmature/Master/Hip/Waist/Chest/Shoulder_R/Arm1_R/Arm2_R/Arm2_R_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L
+        weight: 1
+      - path: BadguyArmature/Master/Knee_L/Knee_L_end
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R
+        weight: 1
+      - path: BadguyArmature/Master/Knee_R/Knee_R_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_L/Foot_L/Foot_L_end
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R
+        weight: 1
+      - path: BadguyArmature/Master/WholeLeg_R/Foot_R/Foot_R_end
+        weight: 1
+      - path: BadguyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

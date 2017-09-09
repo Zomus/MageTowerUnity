@@ -1,15 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
-      <File FileName="../Navigation/Assets/MoveTo.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MageHandController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TileController.cs" Line="1" Column="1" />
-      <File FileName="Assets/LadderController.cs" Line="1" Column="1" />
-      <File FileName="Assets/TriggerTrap.cs" Line="1" Column="1" />
-      <File FileName="Assets/TrapController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="293" Column="20" />
+      <File FileName="Assets/Scripts/MageHandController.cs" Line="11" Column="35" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="253" Column="6" />
+      <File FileName="Assets/Scripts/TileController.cs" Line="40" Column="44" />
+      <File FileName="Assets/Scripts/TriggerTrap.cs" Line="25" Column="64" />
+      <File FileName="Assets/Scripts/TrapController.cs" Line="24" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
