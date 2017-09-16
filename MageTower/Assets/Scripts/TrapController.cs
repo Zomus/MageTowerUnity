@@ -6,7 +6,7 @@ public class TrapController : MonoBehaviour {
 	TrapController trapTile;
 
 	void Start () {
-		anim = transform.Find("SpringRig").GetComponent<Animator>();
+		anim = transform.Find("Model").GetComponent<Animator>();
 	}
 
 	// Update is called once per frame
@@ -18,7 +18,7 @@ public class TrapController : MonoBehaviour {
 		trapTile = tile;
 	}
 
-	public void playTrapAnimation(){
+	public void triggerTrapAnimation(){
 		anim.SetBool("Triggered", true);
 	}
 	public void resetTrapAnimation(){

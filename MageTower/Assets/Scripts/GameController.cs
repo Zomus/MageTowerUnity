@@ -43,8 +43,15 @@ public class GameController : MonoBehaviour {
 
 	public GameObject trapContainer;
 	//Empty Object that contains all spawned traps
-	public GameObject springTrapPrefab;
-	//Prefab (blueprint) of spawned springs
+
+	public int trapType;
+	/*Type of trap that is being placed
+	 * 1 = Spring Trap
+	 * 2 = 
+	*/
+
+	public GameObject[] trapPrefabs;
+	//0th element is left undefined as 0 means no trap
 
 	public GameObject highlightedTile;
 	//Currently selected tile
@@ -149,7 +156,7 @@ public class GameController : MonoBehaviour {
 
 		GameObject tempEnemy = Instantiate(enemyPrefab, new Vector3(xPos, yPos, zPos), Quaternion.identity, enemyContainer.transform) as GameObject;
 
-		tempEnemy.GetComponent<EnemyController>().Initialize(goalFloor, 2);
+		tempEnemy.GetComponent<EnemyController>().Initialize(goalFloor);
 		//send some variables to the controller
 
 		enemyList.Add(tempEnemy);
@@ -233,17 +240,17 @@ public class GameController : MonoBehaviour {
 						Debug.Log("Trap placed");
 
 						//PLACE TRAP
-						selectedTile.trapType = 1;
-						//Mark the trap type of the block to 1 to store that a trap has been placed
+						selectedTile.trapType = trapType;
+						//Mark the trap type of the block to the type of the trap to store that a trap has been placed
 						selectedTile.ready = true;
 
-						Vector3 dropLocation = hit.collider.gameObject.transform.position + new Vector3 (0f, 0.3f, 0f);
+						Vector3 dropLocation = hit.collider.gameObject.transform.position;
 						//Define where the trap is to be placed
-						GameObject tempTrap = Instantiate(springTrapPrefab, dropLocation, Quaternion.identity, trapContainer.transform) as GameObject;
+						GameObject tempTrap = Instantiate(trapPrefabs[trapType], dropLocation, Quaternion.identity, trapContainer.transform) as GameObject;
 						//Spawn the trap
 						selectedTile.GetComponent<TileController>().addTrapReference(tempTrap);
 						//give the tile a reference to the trap that has been set on it
-						tempTrap.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+						//tempTrap.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
 						//Scale the trap down
 					}else{ //otherwise reset the trap so it can be ready again
 						Debug.Log("Trap resetted");

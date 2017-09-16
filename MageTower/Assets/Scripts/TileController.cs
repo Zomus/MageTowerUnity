@@ -10,6 +10,7 @@ public class TileController : MonoBehaviour {
 	//TRAP TYPES
 	public const int NO_TRAP = 0;
 	public const int SPRING_TRAP = 1;
+	public const int SAW_TRAP = 2;
 
 	public int trapType;
 	//type of trap placed on this block

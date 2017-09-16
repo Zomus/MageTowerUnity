@@ -23,11 +23,20 @@ public class TriggerTrap : MonoBehaviour {
 
 					tileRef.ready = false;
 					Debug.Log(tileRef.trapRef.GetComponent<TrapController>());
-					tileRef.trapRef.GetComponent<TrapController>().playTrapAnimation();
+					tileRef.trapRef.GetComponent<TrapController>().triggerTrapAnimation();
 					//Debug.Log();
 					//tileRef.trapRef.GetComponent<Animator>().SetBool("Triggered", true);
 				}else{
 					Debug.Log("Error: Cannot find component EnemyController on other.");
+				}
+			}
+
+			if(tileRef.trapType == TileController.SAW_TRAP && tileRef.ready){
+				if(other.GetComponent<EnemyController>() != null){
+					other.GetComponent<EnemyController> ().death ();
+					//kills the enemy immediately
+					tileRef.ready = false;
+					tileRef.trapRef.GetComponent<TrapController>().triggerTrapAnimation();
 				}
 			}
 

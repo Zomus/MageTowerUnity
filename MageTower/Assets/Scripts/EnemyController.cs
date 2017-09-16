@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour
 	private int targetFloor;
 	//floor that this character wants to reach
 
-	int climbSpeed;
+	public int climbSpeed;
 	//speed at which this character climbs the ladder
 	int climbing = 0;
 	//is this character currently climbing the ladder
@@ -51,9 +51,8 @@ public class EnemyController : MonoBehaviour
 	bool levitated = true;
 
 	//passing values to the enemy object upon instantiation
-	public void Initialize(int tf, int cs){
+	public void Initialize(int tf){
 		targetFloor = tf;
-		climbSpeed = cs;
 		//set values to local variables
 	}
 
@@ -340,6 +339,12 @@ public class EnemyController : MonoBehaviour
 	}
 
 	public void death(){
+		agent.enabled = false;
+		//stop navigating
+
+		rb.useGravity = true;
+		//apply gravity
+
 		anim.SetInteger("State", -1);
 		//fall
 
@@ -362,6 +367,12 @@ public class EnemyController : MonoBehaviour
 	}
 
 	public void attackWizard(){
+		agent.enabled = false;
+		//stop navigating
+
+		rb.useGravity = true;
+		//apply gravity
+
 		anim.SetInteger("State", 2);
 		//attacking
 
