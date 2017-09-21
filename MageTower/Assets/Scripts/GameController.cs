@@ -107,7 +107,7 @@ public class GameController : MonoBehaviour {
 
 		//Will condense into a function to spawn adjacent groups of blocks
 
-		for(int i = -2; i < 0; i++){
+		for(int i = -5; i < 0; i++){
 			for(int j = -14; j < 14; j++){
 				spawnTile(j, height, i);
 			}
@@ -116,6 +116,9 @@ public class GameController : MonoBehaviour {
 		{//brackets to make sure j can be used in other places (restricts the variable j to a local variable)
 			for(int j = -2; j < 0; j++){
 				spawnTile(j, height, 0);
+			}
+			for(int k = 2; k < 4; k++){
+				spawnTile(k, height, 0);
 			}
 		}
 
@@ -182,7 +185,9 @@ public class GameController : MonoBehaviour {
 			
 		if(stageTimer - lastSpawnTime > spawnRate){ //time elapsed is enough to spawn another enemy
 
-			spawnEnemy(spawnCapsule.transform.position.x, spawnCapsule.transform.position.y, spawnCapsule.transform.position.z);
+			Vector3 randomOffset = new Vector3(Random.Range(-14f, 14f), 2f, -4f);
+
+			spawnEnemy(spawnCapsule.transform.position.x + randomOffset.x, spawnCapsule.transform.position.y + randomOffset.y, spawnCapsule.transform.position.z + randomOffset.z);
 			//spawn the enemy
 			lastSpawnTime = stageTimer;
 			//set the last spawn time to now

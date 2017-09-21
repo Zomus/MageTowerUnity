@@ -24,6 +24,7 @@ public class EnemyController : MonoBehaviour
 
 	public UnityEngine.AI.NavMeshAgent agent;
 	Rigidbody rb;
+	CapsuleCollider collider;
 
 	private int currentFloor;
 	//floor that this character is currently on
@@ -48,7 +49,7 @@ public class EnemyController : MonoBehaviour
 	int nextDestIndex = 0;
 	//the index of the character's next destination, stored in destList
 
-	bool levitated = true;
+	public bool levitated = true;
 
 	//passing values to the enemy object upon instantiation
 	public void Initialize(int tf){
@@ -62,6 +63,7 @@ public class EnemyController : MonoBehaviour
 		currentFloor = (int)transform.position.y;
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		rb = GetComponent<Rigidbody>();
+		collider = GetComponent<CapsuleCollider>();
 
 		agent.enabled = false;
 		//disable the agent until it hits the ground
@@ -340,10 +342,7 @@ public class EnemyController : MonoBehaviour
 
 	public void death(){
 		agent.enabled = false;
-		//stop navigating
-
-		rb.useGravity = true;
-		//apply gravity
+		//stop navigating (set location to current position)
 
 		anim.SetInteger("State", -1);
 		//fall
@@ -352,14 +351,32 @@ public class EnemyController : MonoBehaviour
 
 		Debug.Log("DEATHSPLOSION!");
 
+		StartCoroutine(disableCollider(0.2f));
+
 		StartCoroutine(waitForExplode(1f));
 		//wait 2 second, before dissolving
+	}
+
+	private IEnumerator disableCollider(float delay){
+		yield return new WaitForSeconds(delay);
+
+		rb.constraints = RigidbodyConstraints.FreezePosition;
+		//freeze position
+
+		collider.enabled = false;
+		//disable collider
 	}
 
 	private IEnumerator waitForExplode(float delay){
 		yield return new WaitForSeconds(delay);
 
 		Debug.Log("DEATHSPLOSION!");
+
+		rb.constraints = RigidbodyConstraints.FreezePosition;
+		//freeze position
+
+		collider.enabled = false;
+		//disable collider
 
 		GameObject tempExplosion = Instantiate (deathsplosion, transform.position, Quaternion.Euler(-90f, 0f, 0f), particleContainer.transform) as GameObject;
 		tempExplosion.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);

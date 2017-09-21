@@ -13,19 +13,24 @@ public class TriggerTrap : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if(other.tag == "Enemy"){
 			
-			if(tileRef.trapType == TileController.SPRING_TRAP && tileRef.ready){
+			if(tileRef.trapType == TileController.SPRING_TRAP){
+				
 				if(other.GetComponent<EnemyController>() != null){
-					other.GetComponent<EnemyController>().lifted();
-					//let the enemy know that it is in the air
+					EnemyController ec = other.GetComponent<EnemyController>();
+					if(tileRef.ready){
+						ec.lifted();
+						//let the enemy know that it is in the air
 
-					other.GetComponent<Rigidbody>().velocity = new Vector3(0f, 10f, 0f);
-					//fling it up with a force
+						other.GetComponent<Rigidbody>().velocity = new Vector3(0f, 10f, 0f);
+						//fling it up with a force
 
-					tileRef.ready = false;
-					Debug.Log(tileRef.trapRef.GetComponent<TrapController>());
-					tileRef.trapRef.GetComponent<TrapController>().triggerTrapAnimation();
-					//Debug.Log();
-					//tileRef.trapRef.GetComponent<Animator>().SetBool("Triggered", true);
+						tileRef.ready = false;
+						Debug.Log(tileRef.trapRef.GetComponent<TrapController>());
+						tileRef.trapRef.GetComponent<TrapController>().triggerTrapAnimation();
+					}/*else if(ec.levitated){
+						other.GetComponent<Rigidbody>().velocity = new Vector3(0f, 10f, 0f);
+					}*/
+
 				}else{
 					Debug.Log("Error: Cannot find component EnemyController on other.");
 				}
