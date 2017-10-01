@@ -46,12 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ExampleClass.cs" />
      <Compile Include="Assets\Scripts\AttackTrigger.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\LadderController.cs" />
      <Compile Include="Assets\Scripts\MageHandController.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\Old Scripts\TriggerTrap.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\enemyController.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\flowerMenu.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\portalCode.cs" />
@@ -60,7 +62,6 @@
      <Compile Include="Assets\Scripts\ParticleSelfDestruct.cs" />
      <Compile Include="Assets\Scripts\TileController.cs" />
      <Compile Include="Assets\Scripts\TrapController.cs" />
-     <Compile Include="Assets\Scripts\TriggerTrap.cs" />
      <Compile Include="Assets\Unused Items\TrapButtonController.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/duncanlo/Documents/University of Calgary/Game Design Club/MageTowerUnity/MageTower/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>

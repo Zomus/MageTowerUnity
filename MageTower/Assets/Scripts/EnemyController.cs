@@ -3,8 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class EnemyController : MonoBehaviour
-{
-	public float halfEnemyHeight;
+{	/* ROLE:
+	 * Manages stats and creates functionality for enemies
+	 * Attached to GameObjects of the Prefab Enemy
+	 */ 
+	float halfEnemyHeight;
 	//how tall half the enemy is (used to offset the height of enemy to determine whether it is finished climbing)
 
 	private GameObject goal;
@@ -18,9 +21,6 @@ public class EnemyController : MonoBehaviour
 
 	Animator anim;
 	//animator that controls the animation of the enemy
-
-	Ray ray;
-	RaycastHit hit;
 
 	public UnityEngine.AI.NavMeshAgent agent;
 	Rigidbody rb;
@@ -51,6 +51,9 @@ public class EnemyController : MonoBehaviour
 
 	public bool levitated = true;
 
+	public bool dead = false;
+	//is this enemy dead
+
 	//passing values to the enemy object upon instantiation
 	public void Initialize(int tf){
 		targetFloor = tf;
@@ -60,6 +63,10 @@ public class EnemyController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		halfEnemyHeight = transform.localScale.y/2;
+		//set its height to its scale/2
+		Debug.Log(halfEnemyHeight);
+
 		currentFloor = (int)transform.position.y;
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		rb = GetComponent<Rigidbody>();
@@ -85,14 +92,13 @@ public class EnemyController : MonoBehaviour
 			GameObject nextDestination = destList[nextDestIndex];
 			//next destination in the list
 
-
-
 			Debug.Log("State: " + anim.GetInteger("State"));
 
 			if(targetFloor > currentFloor){
 				//AGENT CLIMBS UP
 				climbing = 1;
 				rb.velocity = new Vector3(0f, climbSpeed, 0f);
+
 				if(nextDestination.tag == "Ladder"){
 					climbTargetElevation = nextDestination.GetComponent<LadderController>().topFloor;
 				}
@@ -118,9 +124,8 @@ public class EnemyController : MonoBehaviour
 		}
 
 		if(climbing != 0){ //Climbing
-			//gameObject.transform.Translate(new Vector3(0f, climbing * climbSpeed * Time.deltaTime, 0f));
-			//Debug.Log(climbing * climbSpeed * Time.deltaTime+" "+ rb.useGravity);
-			if(gameObject.transform.position.y - halfEnemyHeight >= climbTargetElevation && climbing > 0){ //climbing up, at or exceeded targetElevation
+
+			if(gameObject.transform.position.y >= climbTargetElevation && climbing > 0){ //climbing up, at or exceeded targetElevation
 				climbing = 0;
 				//stop climbing
 				rb.velocity = new Vector3();
@@ -138,9 +143,8 @@ public class EnemyController : MonoBehaviour
 
 				anim.SetInteger("State", 1);
 				//walking
-
 			}
-			if(gameObject.transform.position.y - halfEnemyHeight <= climbTargetElevation && climbing < 0){//climbing down, at or exceeded targetElevation
+			if(gameObject.transform.position.y <= climbTargetElevation && climbing < 0){//climbing down, at or exceeded targetElevation
 				climbing = 0;
 				//stop climbing
 				rb.velocity = new Vector3();
@@ -161,6 +165,13 @@ public class EnemyController : MonoBehaviour
 
 				//REPEATED CODE...will clean up later
 			}
+
+		}else{
+			
+		}
+
+		if(transform.position.y < -1){
+			death();
 		}
 	}
 
@@ -295,21 +306,21 @@ public class EnemyController : MonoBehaviour
 		//runs when lifted off the ground (by traps or hand)
 
 		if(!levitated){
-			levitated = true;
-
-			anim.SetInteger("State", 0);
-			//idle (change to flailing later)
-
-			Debug.Log("State: " + anim.GetInteger("State"));
-
-			rb.useGravity = true;
-			//apply gravity
-
-			agent.enabled = false;
-			//stop navigating
-
-			StartCoroutine(wait(0.25f));
+			
 		}
+
+		levitated = true;
+
+		anim.SetInteger("State", 0);
+		//idle (change to flailing later)
+
+		rb.useGravity = true;
+		//apply gravity
+
+		agent.enabled = false;
+		//stop navigating
+
+		StartCoroutine(wait(0.25f));
 
 	}
 
@@ -323,7 +334,6 @@ public class EnemyController : MonoBehaviour
 
 			anim.SetInteger("State", 1);
 			//walking
-			Debug.Log("State: " + anim.GetInteger("State"));
 
 			rb.useGravity = false;
 			//stop applying gravity
@@ -341,15 +351,14 @@ public class EnemyController : MonoBehaviour
 	}
 
 	public void death(){
+		dead = true;
+		//is now dead
+
 		agent.enabled = false;
 		//stop navigating (set location to current position)
 
 		anim.SetInteger("State", -1);
 		//fall
-
-		Debug.Log("State: " + anim.GetInteger("State"));
-
-		Debug.Log("DEATHSPLOSION!");
 
 		StartCoroutine(disableCollider(0.2f));
 
@@ -372,11 +381,10 @@ public class EnemyController : MonoBehaviour
 
 		Debug.Log("DEATHSPLOSION!");
 
+		GameController.main.finance += 3;
+
 		rb.constraints = RigidbodyConstraints.FreezePosition;
 		//freeze position
-
-		collider.enabled = false;
-		//disable collider
 
 		GameObject tempExplosion = Instantiate (deathsplosion, transform.position, Quaternion.Euler(-90f, 0f, 0f), particleContainer.transform) as GameObject;
 		tempExplosion.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
@@ -392,8 +400,6 @@ public class EnemyController : MonoBehaviour
 
 		anim.SetInteger("State", 2);
 		//attacking
-
-		Debug.Log("State: " + anim.GetInteger("State"));
 	}
 	
 }

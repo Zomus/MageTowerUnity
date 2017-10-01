@@ -15,7 +15,7 @@ public class TileController : MonoBehaviour {
 	public int trapType;
 	//type of trap placed on this block
 
-	public GameObject trapRef;
+	public TrapController trapRef;
 	//reference to the trap that has been placed on this tile
 
 	public bool ready = false;
@@ -33,16 +33,19 @@ public class TileController : MonoBehaviour {
 		//set default material to the material of the top side (to turn back later)
 	}
 
-	public void addTrapReference(GameObject trap){
+	public void addTrapReference(TrapController trap){
 		trapRef = trap;
+		trap.setCrossReference(this);
 	}
 
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Enemy"){ //block hits an enemy
+			
 			if (other.GetComponent<EnemyController>().agent.enabled) {
 				return;
 			}
 			float landSpeed = other.GetComponent<Rigidbody> ().velocity.y;
+
 			if(landSpeed < 0f && other.GetComponent<EnemyController>() != null){
 				Debug.Log ("Landed at a speed of: " + landSpeed);
 				if (landSpeed < -9f) {
@@ -58,10 +61,6 @@ public class TileController : MonoBehaviour {
 
 	}
 
-	/*public void assignNewMaterial(string name){
-		Material newMat = Resources.Load("Materials/"+name, typeof(Material)) as Material;
-		gameObject.GetComponent<MeshRenderer>().material = newMat;
-	}*/
 	public void assignNewMaterial(string name){
 		if(name != "Default"){ //if parameter 'name' is not "Default"
 			Material newMat = Resources.Load("Materials/"+name, typeof(Material)) as Material;
@@ -76,9 +75,6 @@ public class TileController : MonoBehaviour {
 
 	public Transform getChild(string name){
 		//getChild obtains the Transform of a child in this GameObject with the name 'name'
-
-		//Transform selectedChild;
-		//Transform of the selected child
 
 		foreach (Transform child in transform){ //for loop searches through the parent GameObject's Transform
 			if (child.name == name){ //if names match
